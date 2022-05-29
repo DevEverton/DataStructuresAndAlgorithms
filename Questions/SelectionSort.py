@@ -8,7 +8,7 @@ def selectionSort(array):
         array[i], array[indexOfSmaller+i] = array[indexOfSmaller+i], array[i]
         i += 1
         indexOfSmaller = 0
-    print(array)
+    return array
         
 
 array = [8, 5, 2, 9, 5, 6, 3]
