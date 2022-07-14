@@ -20,8 +20,6 @@ def generateDocument(characters, document):
             charsDict[char] = 1
     
     for char in document:
-        print(characters.count(characters))
-
         if char in charsDict:
             if charsDict[char] == 0:
                 return False
